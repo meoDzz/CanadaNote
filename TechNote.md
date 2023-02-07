@@ -12,7 +12,7 @@ eval "$(ssh-agent -s)"
 ## 2.Tạo **ssh key**
 >Lưu ý: Nếu đã tạo **ssh key** rồi thì không cần tạo lại.
 
-Cú pháp:
+Cú pháp (Syntax):
 ```
 ssh-keygen -t TypeOfKeyToCreate -C "comment"
 ```

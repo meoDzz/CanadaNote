@@ -74,6 +74,7 @@ ví dụ:
 ##
 # Setting ssh configuration
 1. Truy cập vào file C:\Users\minhn\.ssh\config
+> Nếu chưa có thì tạo file với tên **config**
 
 2. Thêm vào file config danh sách robot
 

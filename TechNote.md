@@ -85,5 +85,10 @@ Host robot1
 	Port 22
 	User pi
 ```
+# Git command - avoid conflict
+## Work with sub-stream
+> Luôn luôn **git rebase** từ nhánh chính
 
+## Work with main-stream when sub-stream is done
+> Git Merge từ nhánh phụ vào nhánh chính
 

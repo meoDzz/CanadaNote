@@ -110,3 +110,14 @@ sed -i s/pi/<new_user>/g /etc/gshadow
 mv /home/pi /home/<new_user>
 reboot
 ```
+Example:
+We shall change our default “pi” username to “singleboardbytes.”
+```
+sed -i s/pi/singleboardbytes/g /etc/passwd
+sed -i s/pi/singleboardbytes/g /etc/shadow
+sed -i s/pi/singleboardbytes/g /etc/group
+sed -i s/pi/singleboardbytes/g /etc/sudoers
+sed -i s/pi/singleboardbytes/g /etc/gshadow
+mv /home/pi /home/singleboardbytes
+reboot
+```

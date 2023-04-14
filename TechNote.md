@@ -94,9 +94,11 @@ Host robot1
 
 # Change username of raspberrry pi4
 Link hướng dẫn: **https://singleboardbytes.com/1234/managing-raspberry-pi-os-username-password.htm** 
+
 Method 2:
 1. Open your terminal and switch to root user using the command below:
-> sudo su
+``` sudo su
+```
 2. Copy to the terminal
 ```
 sed -i s/pi/<new_user>/g /etc/passwd

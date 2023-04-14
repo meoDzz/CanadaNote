@@ -92,3 +92,18 @@ Host robot1
 ## Work with main-stream when sub-stream is done
 > Git Merge từ nhánh phụ vào nhánh chính
 
+# Change username of raspberrry pi4
+Link hướng dẫn: **https://singleboardbytes.com/1234/managing-raspberry-pi-os-username-password.htm** 
+Method 2:
+1. Open your terminal and switch to root user using the command below:
+> sudo su
+2. Copy to the terminal
+```
+sed -i s/pi/<new_user>/g /etc/passwd
+sed -i s/pi/<new_user>/g /etc/shadow
+sed -i s/pi/<new_user>/g /etc/group
+sed -i s/pi/<new_user>/g /etc/sudoers
+sed -i s/pi/<new_user>/g /etc/gshadow
+mv /home/pi /home/<new_user>
+reboot
+```

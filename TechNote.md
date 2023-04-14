@@ -97,7 +97,8 @@ Link hướng dẫn: **https://singleboardbytes.com/1234/managing-raspberry-pi-o
 
 Method 2:
 1. Open your terminal and switch to root user using the command below:
-``` sudo su
+``` 
+sudo su
 ```
 2. Copy to the terminal
 ```

@@ -121,3 +121,6 @@ sed -i s/pi/singleboardbytes/g /etc/gshadow
 mv /home/pi /home/singleboardbytes
 reboot
 ```
+# Remove password when login in Raspberry
+Go to this link:
+> https://superuser.com/questions/1680017/set-password-when-power-my-pi

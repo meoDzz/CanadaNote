@@ -1,10 +1,10 @@
 # Login
 ```
-Mssv@kagayaki
+ssh Mssv@kagayaki
 ```
 Ví dụ:
 ```
-s2120443@kagayaki
+ssh s2120443@kagayaki
 ```
 # Xin Queue để chạy
 ```

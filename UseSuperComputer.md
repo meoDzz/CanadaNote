@@ -14,3 +14,7 @@ qsub -q GPU-1 -I
 ```
 Module load cuda
 ```
+# Delete screem
+```
+$ screen -X -S [session # you want to kill] quit
+```

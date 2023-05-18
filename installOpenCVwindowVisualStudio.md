@@ -4,7 +4,7 @@
 https://opencv.org/releases/page/2/
 ```
 ## Step 2: Add lib to Visual studio
-### 1. Additional include Directories
+### 1. C/C++ -> Additional include Directories
 Add the include directories
 > D:\opencv\opencv\build\include;
 ### 2. Linker -> General

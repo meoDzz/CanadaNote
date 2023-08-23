@@ -18,3 +18,8 @@ Module load cuda
 ```
 $ screen -X -S [session # you want to kill] quit
 ```
+
+# Export the environment of conda
+```
+conda env export > environment.yml
+```
